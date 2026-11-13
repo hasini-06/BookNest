@@ -1,0 +1,88 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir BookNest
+Creates the project directory named BookNest.
+
+2. cd BookNest
+Moves into the BookNest project directory.
+
+3. git init
+Initializes a new Git repository in the current directory.
+
+4. git branch -M main
+Renames the current branch to main.
+
+5. git add index.html about.html
+Stages the initial HTML files for committing.
+
+6. git commit -m "Initial project structure"
+Creates the initial commit containing the project files.
+
+7. git add index.html
+Stages the modified index.html file.
+
+8. git commit -m "Update home page content"
+Creates a second commit containing the home page changes.
+
+9. git branch feature
+Creates a new branch named feature.
+
+10. git switch feature
+Switches to the feature branch.
+
+11. git add about.html
+Stages the changes made to about.html.
+
+12. git commit -m "Add BookNest features"
+Creates a commit containing the feature changes.
+
+13. git switch main
+Switches back to the main branch.
+
+14. git merge --no-ff feature -m "Merge feature branch"
+Merges the feature branch into main and creates a merge commit.
+
+15. git log --oneline --graph --decorate --all
+Displays the commit history in a compact graphical format.
+
+16. git status --short
+Displays the current repository status.
+
+17. git check-ignore debug.log temp/
+Checks whether the specified files or folders are ignored by Git.
+
+18. git add .gitignore
+Stages the .gitignore file.
+
+19. git commit -m "Add Git ignore rules"
+Creates a commit containing the Git ignore configuration.
+
+20. git add temporary.txt
+Stages the temporary file.
+
+21. git commit -m "Add temporary file for revert demonstration"
+Creates an additional commit for demonstrating Git revert.
+
+22. git revert --no-edit HEAD
+Creates a new commit that reverses the changes introduced by the latest commit.
+
+23. git remote add origin <GitHub-URL>
+Connects the local repository to the GitHub remote repository.
+
+24. git remote -v
+Displays the configured remote repository URLs.
+
+25. git push -u origin main
+Pushes the main branch to GitHub and sets its upstream branch.
+
+26. git push -u origin feature
+Pushes the feature branch to GitHub and sets its upstream branch.
+
+27. git add git_commands.txt
+Stages the Git command documentation file.
+
+28. git commit -m "Document Git commands used in assignment"
+Creates a commit containing the command documentation.
+
+29. git push
+Pushes the latest commits to GitHub.
